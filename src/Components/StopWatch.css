@@ -1,0 +1,22 @@
+.stopwatch-timer{
+    height: auto;
+    width: fit-content;
+    background-color: aliceblue;
+    display: flex;
+
+    align-items:center;
+}
+.stopwatch-button{
+    display :flex;
+    justify-content: center;
+}
+
+.stopwatch-button button{
+    margin: 20px;
+    border: none;
+    padding: 10px 30px;
+    color: aqua;
+}
+stopwatch-button button:first-child{
+    background-color: brown;
+}
